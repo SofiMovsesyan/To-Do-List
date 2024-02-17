@@ -27,5 +27,9 @@ ul.addEventListener("click", (e) => {
         p.textContent = editBox;
     }else if(e.target.classList.contains("delete")) {
         e.target.parentElement.remove();
+    }else {
+        event.target.classList.add('checked');
+
     }
 })
+

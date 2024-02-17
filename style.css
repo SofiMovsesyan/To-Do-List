@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,457;1,457&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+h1 {
+    margin-top: 1%;
+    text-align: center;
+    color: #333;
+}
+
+#main {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: #fff; 
+    overflow: scroll;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd; 
+    
+}
+
+#inputTask {
+    width: 68%;
+    padding: 7px;
+    margin: 20px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #2e8f49;
+}
+
+#inputTask:focus {
+    border-color: #00ff48; 
+}
+
+#inputTask::placeholder {
+    color: #2e8f49;
+}
+
+
+button {
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #8d8d8d; 
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+}
+#addBtn{
+    border: 1px solid #c9ffd8; 
+    background-color: #c9ffd8; 
+    margin: 10px 8px;
+}
+
+.edit {
+    margin: 2px 0px 2px 150px;
+    border: 1px solid #95ffb3; 
+    background-color: #c9ffd8; 
+}
+
+.delete {
+    text-align: center;
+    margin: 2px;
+    border: 1px solid #ffffff; 
+    background-color: #ffffff; 
+}
+
+#addBtn:hover, .edit:hover {
+    background-color: #96ffb4; 
+    border-color: #96ffb4;
+}
+
+.delete:hover {
+    background-color: #dbdbdb; 
+    border-color: #dbdbdb   ;
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ebf3e9;
+    border-radius:5px;
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checked {
+    text-decoration: line-through;
+}
