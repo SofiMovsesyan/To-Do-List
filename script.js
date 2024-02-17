@@ -15,7 +15,7 @@ addBtn.addEventListener("click", () => {
         `
         ul.appendChild(li);
     }
-    inputValue="";
+    inputTask.value="";
 })
 
 
